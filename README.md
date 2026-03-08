@@ -1,5 +1,7 @@
 # Acer Nitro V15 (ANV15-41-R2M0) Hackintosh
 
+![macOS Ventura5](assets/ventura.jpg)
+
 ## System Specifications
 
 | Component | Specification | Status in macOS |
