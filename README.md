@@ -8,16 +8,15 @@ A complete EFI folder and guide for running macOS on the Acer Nitro V15.
 | :--- | :--- | :--- |
 | **Model** | Acer Nitro V15 (ANV15-41-R2M0) | Supported |
 | **CPU** | AMD Ryzen 5 7535HS | Supported |
-| **iGPU** | AMD Radeon 660M | Supported (via NootedRed) |
+| **iGPU** | AMD Radeon 660M |**Unsupported** (no GPU acceleration) |
 | **dGPU** | NVIDIA GeForce RTX 2050 | **Unsupported** (Disabled via boot-args/SSDT) |
-| **RAM** | 8GB DDR5 | Supported |
+| **RAM** | 16GB DDR5 | Supported |
 | **Storage** | 512GB PCIe NVMe SSD | Supported |
 | **Display** | 15.6" FHD (1920x1080) @ 144Hz | Supported |
-| **Audio** | [Insert Audio Codec/ALC ID] | Supported |
-| **Network** | [Insert Wi-Fi/BT Card Model] | Supported |
+| **Audio** | Supported |
+| **Network** | Supported |
 
 ## 🛠️ What's Working
-* [x] AMD Radeon iGPU Hardware Acceleration
 * [x] Native Refresh Rate (144Hz)
 * [x] Audio (Internal Speakers & Headphone Jack)
 * [x] Wi-Fi and Bluetooth
@@ -29,7 +28,7 @@ A complete EFI folder and guide for running macOS on the Acer Nitro V15.
 ## ⚠️ What's Not Working
 * [ ] NVIDIA RTX 2050 (macOS does not support modern NVIDIA GPUs)
 * [ ] HDMI Out (If routed directly through the disabled NVIDIA dGPU)
-* [ ] [Add any other specific bugs or unsupported features]
+* [ ] AMD Radeon iGPU Hardware Acceleration
 
 ## ⚙️ BIOS Settings
 Before booting the USB, ensure the following BIOS settings are configured:
