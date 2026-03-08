@@ -11,8 +11,7 @@
 | **RAM** | 16GB DDR5 | Supported |
 | **Storage** | 512GB PCIe NVMe SSD | Supported |
 | **Display** | 15.6" FHD (1920x1080) @ 144Hz | Supported |
-| **Audio** ||| Supported |
-| **Network** ||| Supported |
+| **Network** | Ethernet | Supported |
 
 ## 🛠️ What's Working
 * [x] Native Refresh Rate (144Hz)
