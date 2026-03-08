@@ -1,7 +1,5 @@
 # Acer Nitro V15 (ANV15-41-R2M0) Hackintosh
 
-A complete EFI folder and guide for running macOS on the Acer Nitro V15. 
-
 ## System Specifications
 
 | Component | Specification | Status in macOS |
@@ -13,22 +11,21 @@ A complete EFI folder and guide for running macOS on the Acer Nitro V15.
 | **RAM** | 16GB DDR5 | Supported |
 | **Storage** | 512GB PCIe NVMe SSD | Supported |
 | **Display** | 15.6" FHD (1920x1080) @ 144Hz | Supported |
-| **Audio** | Supported |
-| **Network** | Supported |
+| **Audio** ||| Supported |
+| **Network** ||| Supported |
 
 ## 🛠️ What's Working
 * [x] Native Refresh Rate (144Hz)
 * [x] Audio (Internal Speakers & Headphone Jack)
-* [x] Wi-Fi and Bluetooth
 * [x] Keyboard and Trackpad (with multi-touch gestures)
 * [x] All USB Ports mapped correctly
-* [x] Battery Percentage Readout
-* [x] Sleep/Wake
 
 ## ⚠️ What's Not Working
 * [ ] NVIDIA RTX 2050 (macOS does not support modern NVIDIA GPUs)
 * [ ] HDMI Out (If routed directly through the disabled NVIDIA dGPU)
 * [ ] AMD Radeon iGPU Hardware Acceleration
+* [ ] Battery Percentage Readout
+* [ ] Wi-Fi and Bluetooth
 
 ## ⚙️ BIOS Settings
 Before booting the USB, ensure the following BIOS settings are configured:
